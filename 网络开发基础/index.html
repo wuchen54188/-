@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>袋鼠</title>
+    <style>
+        
+        
+        p,.footer{
+            color:skyblue;
+            font-family: "STXingkai","华文行楷",cursive;
+            font-style: italic;
+            font-size: 50px;
+            margin-top: -50px;
+        }
+        html,body {
+            height: 100%;
+            margin: 0;
+            padding: 0;
+        }
+        .top img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+        }
+        .search {
+            margin-top: -30px;
+        }
+        .search input[type="submit"]{
+            background-color: aquamarine;
+            border-radius: 25px;
+            font-size: 20px;
+        }
+        .search input[type="text"]{
+            border-radius: 25px;
+            width: 80%;
+            font-size: 20px;
+        }
+        .search input[type="text"]:active{
+            background-color: aquamarine;
+            border-radius: 25px;
+        }
+        .search input {
+            border: none;
+            
+        }
+        .maincontent {
+            
+            width: 100%;
+            height: 60px;
+            display: flex;
+            margin-top: 20px;
+            color: #C4C4C4;
+
+            background-color: #333333;
+        }
+        ul {
+            display: flex;
+        }    
+
+        
+        li {
+            font-size: 20px;
+            color: aliceblue;
+        }
+        ul li {
+            list-style-type: none;
+            border-right:1px solid #C4C4C4; 
+        }    
+        ul a{
+            color:#c4c4c4;
+            text-decoration: none;
+            padding: 0 20px;
+            margin: 50px;    
+        }
+        .footer {
+            width: 100%;
+            line-height: 20px;
+            font-size: 15px;
+            background-color: #333333;
+            color: aqua;
+            height: 30px;
+            text-align: center;
+            margin-top: 50px;
+        }    
+        .maincontent img{
+            width: 60px;
+            height: 60px;
+            margin-right: 100px;
+        }
+        .shop {
+            height: 70%
+        }
+        .search form{
+            display: flex;
+            border-radius: 25px;
+            height: 40px;
+            width: 50%;
+            border: 1px solid #2F5DF2;
+            justify-content: space-between;
+            margin-left: 20px;
+            
+        }
+        
+
+
+
+
+
+
+    </style>
+</head>
+<body>
+    <div class="top">
+        <img src="代码艺术照片.png" alt="袋鼠">
+        <p>Welcome to 袋鼠</p>
+    
+        <div class="search">
+                <form action="javascript:alert('嘿！你他娘只能是个天才')">
+                    <input type="text" placeholder="请输入搜索内容">
+                    <input type="submit" value="搜一搜" >
+                </form>
+        </div>
+    </div>
+    
+    <div class="maincontent">    
+        <img src="胆子肥嘟嘟.png" onclick="alert('你的胆子真是肥嘟嘟嘟')">
+        <ul>
+            
+            <li><a href="#">网页介绍</a></li>
+            <li><a href="#">作品收集</a></li>
+            <li><a href="#">帮助中心</a></li>
+            <li><a href="#">个人中心</a></li>
+        </ul>
+    </div>
+    <div class="shop"></div>
+    <div class="footer">@袋鼠（代码的艺术）</div>
+
+
+
+
+
+
+
+
+
+</body>
+</html>
